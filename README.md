@@ -1,2 +1,2 @@
-# 08-Breakout
-Creating a block breaker game
+# Project-Template-Godot
+A generic template for a Godot project
