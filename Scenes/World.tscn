@@ -12,11 +12,11 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 53.311, 12.2888 )
 
-[sub_resource type="DynamicFont" id=4]
+[sub_resource type="DynamicFont" id=2]
 size = 18
 font_data = ExtResource( 6 )
 
-[sub_resource type="DynamicFont" id=5]
+[sub_resource type="DynamicFont" id=3]
 size = 18
 font_data = ExtResource( 6 )
 
@@ -46,44 +46,44 @@ polygon = PoolVector2Array( 0, 640, 0, 0, 1024, 0, 1024, 640, 1088, 640, 1088, -
 [node name="Tiles" type="Node" parent="."]
 
 [node name="Gray Tiles" type="Node2D" parent="Tiles"]
-editor/display_folded = true
 position = Vector2( 12, -96 )
 
 [node name="Tile" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
+position = Vector2( 247.788, 424.296 )
 
 [node name="Tile2" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 228, 384 )
+position = Vector2( 315.069, 425.735 )
 
 [node name="Tile3" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 296, 384 )
+position = Vector2( 383.788, 425.735 )
 
 [node name="Tile4" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 364, 384 )
+position = Vector2( 451.789, 425.735 )
 
 [node name="Tile5" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 432, 384 )
+position = Vector2( 520.508, 425.016 )
 
 [node name="Tile6" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 500, 384 )
+position = Vector2( 589.228, 424.296 )
 
 [node name="Tile7" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 568, 384 )
+position = Vector2( 657.228, 423.577 )
 
 [node name="Tile8" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 636, 384 )
+position = Vector2( 725.947, 422.857 )
 
 [node name="Tile9" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 704, 384 )
+position = Vector2( 794.667, 422.138 )
 
 [node name="Tile10" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 772, 384 )
+position = Vector2( 863.386, 421.418 )
 
 [node name="Tile11" parent="Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 840, 384 )
+position = Vector2( 930.667, 420.698 )
 
 [node name="Red Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -132 )
+position = Vector2( -80.1059, -102.497 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -122,7 +122,7 @@ position = Vector2( 840, 384 )
 
 [node name="Blue Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -168 )
+position = Vector2( 101.228, -150.011 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -161,7 +161,7 @@ position = Vector2( 840, 384 )
 
 [node name="Green Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -204 )
+position = Vector2( -80.106, -197.524 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -200,7 +200,7 @@ position = Vector2( 840, 384 )
 
 [node name="Purple Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -240 )
+position = Vector2( 99.0689, -244.317 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -239,7 +239,7 @@ position = Vector2( 840, 384 )
 
 [node name="Yellow Tiles" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 12, -276 )
+position = Vector2( -81.5451, -293.989 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -281,7 +281,7 @@ margin_left = 893.643
 margin_top = 17.5963
 margin_right = 949.643
 margin_bottom = 37.5963
-custom_fonts/font = SubResource( 4 )
+custom_fonts/font = SubResource( 2 )
 text = "Score"
 script = ExtResource( 7 )
 
@@ -290,6 +290,6 @@ margin_left = 93.0093
 margin_top = 17.5963
 margin_right = 133.009
 margin_bottom = 31.5963
-custom_fonts/font = SubResource( 5 )
+custom_fonts/font = SubResource( 3 )
 text = "Lives"
 script = ExtResource( 8 )
